@@ -1,0 +1,32 @@
+=========================
+LEVEL FILES
+=========================
+
+The 1st line is always ignored (to be used as a comment)
+The 2nd line is the image to use as the background
+
+Every line after should follow this scheme:
+
+String mvmtFile:int occurences:int xStart:int yStart:int xSpace:int ySpace:int time
+
+Take note that no two groups of enemies can appear at the same time (it is easy enough to just separate them by one frame) and that time is the number of frames that have passed in the game. It is possible to spawn multiple enemies at a time using the occurrences, xSpace, and ySpace features to create and space out several enemies.
+
+
+=========================
+MOVEMENT FILES
+=========================
+1st Line - always left out of file for comments 
+2nd Line - image to use for the enemy
+3rd Line - hp xSize ySize 
+4th Line - initial movement to get the enemy on screen (follows standard movement format described below)
+
+Movement options:
+
+  Move - direction:turns:distance:blank
+  Shoot - shoot:amount:xDist:yDist 
+
+When moving, the available directions are: up, down, left, right.
+
+When shooting, shot count starts at 0 as one bullet.
+Anything undefined will cause a wait on the character, but must follow standard format. e.g. blank:0:0:0:0 would work.
+

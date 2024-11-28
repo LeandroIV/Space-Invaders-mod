@@ -1,0 +1,5 @@
+#
+images/TestGround.png
+dynamics/testEnemy4.mvmt:3:340:-20:50:0:100
+dynamics/testEnemy4.mvmt:5:300:-60:50:0:150
+dynamics/testEnemy4.mvmt:7:260:-100:50:0:200

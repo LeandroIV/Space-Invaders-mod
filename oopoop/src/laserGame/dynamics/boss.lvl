@@ -1,0 +1,5 @@
+#
+images/testGround.png
+dynamics/boss.mvmt:1:325:-200:0:0:250
+dynamics/boss.mvmt:1:50:-300:0:0:350
+dynamics/boss.mvmt:1:600:-300:0:0:400

@@ -1,0 +1,10 @@
+#
+images/basicEnemy.png
+20 40 40
+down:3:100:0
+left:10:10:0
+shoot:0:6:60
+shoot:0:-6:60
+right:10:10:0
+shoot:0:-8:120
+shoot:0:8:120

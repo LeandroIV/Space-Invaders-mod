@@ -1,0 +1,5 @@
+#
+images/TestGround.png
+dynamics/diagEnemy.mvmt:2:0:0:100:0:50
+dynamics/diagEnemy.mvmt:3:50:-60:150:0:100
+
